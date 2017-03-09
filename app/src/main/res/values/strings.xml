@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FirstApp</string>
+    <string name="firstLine">Listview_vertical</string>
+    <string name="secondLine">ListView_horizontal</string>
+    <string name="thirdLine">GridView</string>
+    <string name="fourthLine">RelativeView</string>
+</resources>

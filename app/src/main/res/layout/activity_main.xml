@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="todou.firstapp.MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="@string/firstLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/maintext1"
+        android:layout_margin="5dp"
+        android:textSize="30sp"
+        android:background="@color/colorbackground"
+        android:textColor="@color/colormytext"/>
+
+    <TextView
+        android:text="@string/secondLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/maintext2"
+        android:layout_margin="5dp"
+        android:textSize="30sp"
+        android:background="@color/colorbackground"
+        android:textColor="@color/colormytext"/>
+
+    <TextView
+        android:text="@string/thirdLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/maintext3"
+        android:layout_margin="5dp"
+        android:textSize="30sp"
+        android:background="@color/colorbackground"
+        android:textColor="@color/colormytext"/>
+
+    <TextView
+        android:text="@string/fourthLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/maintext4"
+        android:layout_margin="5dp"
+        android:textSize="30sp"
+        android:background="@color/colorbackground"
+        android:textColor="@color/colormytext"/>
+
+    <TextView
+        android:text="LocationGet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/maintext5"
+        android:layout_margin="5dp"
+        android:textSize="30sp"
+        android:background="@color/colorbackground"
+        android:textColor="@color/colormytext"/>
+
+    <TextView
+        android:text="SqlView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/maintext6"
+        android:layout_margin="5dp"
+        android:textSize="30sp"
+        android:background="@color/colorbackground"
+        android:textColor="@color/colormytext"/>
+
+    <CheckBox
+        android:text="All Done"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox" />
+
+</LinearLayout>
